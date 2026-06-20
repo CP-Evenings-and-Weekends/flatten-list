@@ -21,15 +21,19 @@ def flatten_list(is_list):
 print(flatten_list([]) == [])                                       # expect []
 print(flatten_list([]))    
 print()
-print(flatten_list([1, 2, 3]) == [1, 2, 3])                         # expect [1, 2, 3] -- already flat
+
+print(flatten_list([1, 2, 3]) == [1, 2, 3])                         # expect [1, 2, 3]
 print(flatten_list([1, 2, 3]))                    
 print()
+
 print(flatten_list([[1, 2], [3, 4]]) == [1, 2, 3, 4])               # expect [1, 2, 3, 4]
 print(flatten_list([[1, 2], [3, 4]]))             
 print()
-print(flatten_list([[[1]], [[2]], [[3]]]) == [1, 2, 3])             # expect [1, 2, 3] -- deeply nested
+
+print(flatten_list([[[1]], [[2]], [[3]]]) == [1, 2, 3])             # expect [1, 2, 3]
 print(flatten_list([[[1]], [[2]], [[3]]]))        
 print()
-print(flatten_list([1, [2, [3, [4, [5]]]]]) == [1, 2, 3, 4, 5])     # expect [1, 2, 3, 4, 5] -- one item nested 4 levels deep
+
+print(flatten_list([1, [2, [3, [4, [5]]]]]) == [1, 2, 3, 4, 5])     # expect [1, 2, 3, 4, 5]
 print(flatten_list([1, [2, [3, [4, [5]]]]]))
 print()  
