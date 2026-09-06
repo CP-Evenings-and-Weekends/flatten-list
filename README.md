@@ -1,7 +1,7 @@
 # Flatten a List (Recursively)
 
 ## Requirements
-Write a recursive function that takes a multi-dimensional list, and returns a one-dimensional list.  For the love of God, write some pseudocode before you code - and don't forget to write some tests!
+Write a recursive function that takes a multi-dimensional list, and returns a one-dimensional list.  Write pseudocode before you code, and write tests as you go.  A starter test file is provided in `test_flatten_list.py`.
 
 ### Ex 1
 ```python
